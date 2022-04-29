@@ -1,3 +1,7 @@
+/**
+ *
+ * @author gabri
+ */
 public class Profesor extends Persona {
 
     private String nrp;

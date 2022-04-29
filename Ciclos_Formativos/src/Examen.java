@@ -1,15 +1,26 @@
+/**
+ *
+ * @author gabriel
+ */
 public class Examen {
 
     private Pregunta[] listaPreguntas;
     
-
-
+    /**
+     *
+     */
     public void calificar() {
     }
 
+    /**
+     *
+     */
     public void elegirPreguntas() {
     }
 
+    /**
+     *
+     */
     public void ordenarPreguntas() {
     }
 

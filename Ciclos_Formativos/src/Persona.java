@@ -1,3 +1,7 @@
+/**
+ *
+ * @author gabri
+ */
 public class Persona {
 
     private String nombre;
@@ -12,7 +16,16 @@ public class Persona {
 
     private String email;
     
-        public Persona(String nombre, String apellidos, String direccion, int telefono, String alias, String email){
+    /**
+     *
+     * @param nombre
+     * @param apellidos
+     * @param direccion
+     * @param telefono
+     * @param alias
+     * @param email
+     */
+    public Persona(String nombre, String apellidos, String direccion, int telefono, String alias, String email){
         
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -107,6 +120,5 @@ public class Persona {
         this.email = email;
     }
         
-        
-        
+               
 }

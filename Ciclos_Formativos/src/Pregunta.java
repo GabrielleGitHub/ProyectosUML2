@@ -1,6 +1,10 @@
 
 import java.lang.reflect.Array;
 
+/**
+ *
+ * @author gabriel
+ */
 public class Pregunta {
 
     private String[] respuesta;
@@ -9,7 +13,12 @@ public class Pregunta {
 
     private String enunciado;
     
-        public Pregunta (String enunciado, String respuestaValida){
+    /**
+     *
+     * @param enunciado
+     * @param respuestaValida
+     */
+    public Pregunta (String enunciado, String respuestaValida){
     this.enunciado = enunciado;
     this.respuestaValida = respuestaValida;
 }

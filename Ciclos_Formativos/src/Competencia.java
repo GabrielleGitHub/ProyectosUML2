@@ -1,13 +1,22 @@
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author gabriel
+ */
 public class Competencia {
 
     private String nombre;
 
     private String descripcion;
     
-        public Competencia (String nombre, String descripcion){
+    /**
+     *
+     * @param nombre
+     * @param descripcion
+     */
+    public Competencia (String nombre, String descripcion){
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
